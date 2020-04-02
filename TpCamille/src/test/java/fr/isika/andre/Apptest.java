@@ -14,6 +14,6 @@ public class Apptest {
 	}
 	@Test
 	public final void testErreurNom() {
-		assertEquals("Vous ntes pas connu de nos services", whoiam.whoAreYou("toto"))
+		assertEquals("Vous ntes pas connu de nos services", whoiam.whoAreYou("toto"));
 	}
 }
