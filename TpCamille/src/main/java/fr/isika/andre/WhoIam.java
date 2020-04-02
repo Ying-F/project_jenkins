@@ -4,11 +4,11 @@ public class WhoIam {
 	
 	public static String whoAreYou(String name) {
 		
-		String reponse = "Vous n'êtes pas connu de nos services";
+		String reponse = "Vous ntes pas connu de nos services";
 		
 		if(name.equals("Camille")) {
 			
-			reponse = "je m'appelle "+ name;
+			reponse = "je mappelle "+ name;
 		}
 		
 		return reponse;
